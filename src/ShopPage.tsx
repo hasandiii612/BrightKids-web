@@ -5,7 +5,7 @@ function ShopPage() {
         <div className="min-h-screen bg-white text-gray-900">
             <nav className="w-full bg-primary-500 p-4 shadow-md">
                 <div className="container mx-auto flex items-center justify-between">
-                    <img src="/logo.png" alt="BrightKids Logo" className="h-12" />
+                    <img src="/Logo.png" alt="BrightKids Logo" className="h-12" />
                     <Link to="/" className="text-white text-lg">Home</Link>
                 </div>
             </nav>
