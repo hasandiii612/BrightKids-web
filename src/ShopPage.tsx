@@ -19,7 +19,7 @@ function ShopPage() {
                             { name: "Stationery Set", image: "/stationery.png", price: "$14.99" },
                             { name: "Water Bottle", image: "/bottle.png", price: "$19.99" },
                             { name: "School Bag", image: "/bag.png", price: "$39.99" },
-                            { name: "Key Tag", image: "/keytag.png", price: "$9.99" },
+                            { name: "Key Tag", image: "/keytag.webp", price: "$9.99" },
                         ].map((item, index) => (
                             <div key={index} className="bg-gray-100 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
                                 <img src={item.image} alt={item.name} className="w-full h-48 object-cover rounded-md" />
