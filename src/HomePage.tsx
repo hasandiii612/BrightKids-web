@@ -22,7 +22,7 @@ function HomePage() {
 
     return (
         <div className="min-h-screen bg-transparent">
-            <nav className="w-full bg-gradient-to-b from-white-100 to-blue-50">
+            <nav className="w-full bg-blue-300">
                 <div className="container mx-auto px-6 py-3">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
