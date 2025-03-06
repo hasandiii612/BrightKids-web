@@ -30,7 +30,7 @@ function HomePage() {
                         </div>
 
                         {/* Desktop Navigation */}
-                        <div className="hidden md:flex items-center space-x-8 text-gray-1200 ">
+                        <div className="hidden md:flex items-center space-x-8 text-gray-1200 bg-transparent ">
                             <a href="#" className="hover:text-primary-600 transition-colors">Home</a>
                             <Link to="/shop" className="hover:text-primary-600 transition-colors">Shop</Link>
                             <a href="#features" className="hover:text-primary-600 transition-colors">Features</a>
