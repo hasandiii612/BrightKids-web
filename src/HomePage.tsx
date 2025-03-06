@@ -72,7 +72,7 @@ function HomePage() {
 
             {/* Hero Section - Improved animations and layout */}
             <section ref={heroRef}
-                     className="relative bg-gradient-to-b from-white-50 to-white text-monster-dark overflow-hidden">
+                     className="relative bg-gradient-to-b from-white-50 to-white text-monster-dark overflow-hidden bg-blue-300">
                 <div className="container mx-auto px-6 py-20 md:py-28 flex flex-col md:flex-row items-center gap-8">
                     <div
                         className={`md:w-1/2 text-left transition-all duration-700 ${heroInView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
