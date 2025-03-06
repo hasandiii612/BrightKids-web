@@ -22,7 +22,7 @@ function HomePage() {
 
     return (
         <div className="min-h-screen bg-transparent">
-            <nav className="w-full bg-blue-300">
+            <nav className="w-full bg-purple-300">
                 <div className="container mx-auto px-6 py-3">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center">
@@ -30,7 +30,7 @@ function HomePage() {
                         </div>
 
                         {/* Desktop Navigation */}
-                        <div className="hidden md:flex items-center space-x-8 text-gray-1200 bg-blue-300 ">
+                        <div className="hidden md:flex items-center space-x-8 text-gray-1200 bg-purple-300 ">
                             <a href="#" className="hover:text-primary-600 transition-colors">Home</a>
                             <Link to="/shop" className="hover:text-primary-600 transition-colors">Shop</Link>
                             <a href="#features" className="hover:text-primary-600 transition-colors">Features</a>
