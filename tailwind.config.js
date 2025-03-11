@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        baloo: ['Baloo 2', 'sans-serif'],
+      },
       colors: {
         primary: {
           50: '#fff9e6',
