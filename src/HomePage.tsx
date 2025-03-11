@@ -194,7 +194,7 @@ function HomePage() {
 
 
             <section id="quizzes"
-                     className="w-full bg-white min-h-screen flex items-center justify-center py-32 mt-40">
+                     className="w-full bg-white min-h-screen flex items-center justify-center py-30 mt-30">
                 <div className="container mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-12">
 
                     {/* Right Side: Text & Description */}
@@ -217,7 +217,7 @@ function HomePage() {
             </section>
 
             {/* Features Section */}
-            <section ref={featuresRef} id="features" className="py-24 bg-white px-6 relative flex justify-center">
+            <section ref={featuresRef} id="features" className="py-15 bg-white px-6 relative flex justify-center">
                 <div className={`container mx-auto max-w-7xl text-2xl text-center transition-all duration-700 ${featuresInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
 
                     <div className="grid gap-12 md:grid-cols-1 items-center justify-items-center">
@@ -260,7 +260,7 @@ function HomePage() {
 
             {/* Our Team Section - Improved cards and layout */}
             <section ref={teamRef} id="team"
-                     className="py-24 bg-gradient-to-r from-blue-100 to-purple-100 px-6 relative">
+                     className="py-20 bg-gradient-to-r from-blue-100 to-purple-100 px-6 relative">
                 {/* Top wave separator */}
                 <div className="absolute top-0 left-0 right-0 rotate-180">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" className="w-full h-auto">
@@ -281,25 +281,25 @@ function HomePage() {
                                 name: "Yohan Liyange",
                                 role: "Frontend Developer",
                                 image: "/yohan.jpeg",
-                                social: ["twitter", "linkedin"]
+                                social: ["linkedin", "github"]
                             },
                             {
                                 name: "Hasandi Seelarathne",
                                 role: "Backend Developer",
-                                image: "/team2.png",
-                                social: ["github", "linkedin"]
+                                image: "/hasandi.jpg",
+                                social: ["linkedin", "github"]
                             },
                             {
                                 name: "Kasun Wijesinghe",
                                 role: "Frontend Developer",
                                 image: "/kasun.jpeg",
-                                social: ["dribbble", "linkedin"]
+                                social: ["linkedin", "github"]
                             },
                             {
                                 name: "Senethma Hewavitharana",
                                 role: "Frontend Developer",
                                 image: "/senethma.jpeg",
-                                social: ["twitter", "github"]
+                                social: ["linkedin", "github"]
                             },
                             {
                                 name: "Rushela Perera",
@@ -310,8 +310,8 @@ function HomePage() {
                             {
                                 name: "Venuri Jayasuriya",
                                 role: "Backend Developer",
-                                image: "/team1.png",
-                                social: ["twitter", "linkedin"]
+                                image: "/venuri.png",
+                                social: ["linkedin", "github"]
                             },
                         ].map((member, index) => (
                             <div key={index}
