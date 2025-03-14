@@ -139,7 +139,7 @@ function HomePage() {
                             Thinking Skills
                         </div>
                         <div
-                            className="bg-[#C9ADE7] text-purple-900 font-bold text-lg px-5 py-3 rounded-xl rotate-[8deg] min-w-[120px] shadow-xl -mt-1 text-center -ml-2 font-sans ">Interactive
+                            className="bg-[#C9ADE7] text-purple-900 font-bold text-lg px-5 py-3 rounded-xl rotate-[8deg] min-w-[120px] shadow-xl -mt-1 text-center -ml-2 font-sans ">Interesting
                             Adventures
                         </div>
                     </div>
@@ -194,7 +194,7 @@ function HomePage() {
 
 
             <section id="quizzes"
-                     className="w-full bg-white min-h-screen flex items-center justify-center py-30 mt-30">
+                     className="w-full bg-white min-h-screen flex items-center justify-center py-30 mt-25">
                 <div className="container mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-12">
 
                     {/* Right Side: Text & Description */}
@@ -217,7 +217,7 @@ function HomePage() {
             </section>
 
             {/* Features Section */}
-            <section ref={featuresRef} id="features" className="py-15 bg-white px-6 relative flex justify-center">
+            <section ref={featuresRef} id="features" className="py-20 bg-white px-6 relative flex justify-center mb-20 ">
                 <div className={`container mx-auto max-w-7xl text-2xl text-center transition-all duration-700 ${featuresInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
 
                     <div className="grid gap-12 md:grid-cols-1 items-center justify-items-center">
@@ -231,22 +231,22 @@ function HomePage() {
 
                                 {/* Feature Cards */}
                                 <div className="mt-6 grid grid-cols-2 gap-10">
-                                    <div className="bg-sky-200 p-9 rounded-lg shadow-lg">
+                                    <div className="bg-[#e1ebfe] p-9 rounded-lg shadow-lg">
                                         <div className="text-primary-500 text-3xl mb-2">🌟</div>
                                         <h3 className="font-bold text-gray-800">Adaptive Learning</h3>
                                         <p className="text-sm text-gray-600 mt-1">Stories adjust to your child's choices</p>
                                     </div>
-                                    <div className="bg-pink-200 p-5 rounded-lg shadow-lg">
+                                    <div className="bg-[#efe1f3] p-9 rounded-lg shadow-lg">
                                         <div className="text-primary-500 text-3xl mb-2">🔍</div>
                                         <h3 className="font-bold text-gray-800">Discovery</h3>
                                         <p className="text-sm text-gray-600 mt-1">New adventures to explore every day</p>
                                     </div>
-                                    <div className="bg-pink-200 p-5 rounded-lg shadow-lg">
+                                    <div className="bg-[#efe1f3] p-9 rounded-lg shadow-lg">
                                         <div className="text-primary-500 text-3xl mb-2">🧠</div>
                                         <h3 className="font-bold text-gray-800">Problem Solving</h3>
                                         <p className="text-sm text-gray-600 mt-1">Develops critical thinking skills</p>
                                     </div>
-                                    <div className="bg-sky-200 p-5 rounded-lg shadow-lg">
+                                    <div className="bg-[#e1ebfe] p-9 rounded-lg shadow-lg">
                                         <div className="text-primary-500 text-3xl mb-2">❤️</div>
                                         <h3 className="font-bold text-gray-800">Empathy</h3>
                                         <p className="text-sm text-gray-600 mt-1">Teaches understanding and kindness</p>
@@ -259,8 +259,7 @@ function HomePage() {
             </section>
 
             {/* Our Team Section - Improved cards and layout */}
-            <section ref={teamRef} id="team"
-                     className="py-20 bg-gradient-to-r from-blue-100 to-purple-100 px-6 relative">
+            <section ref={teamRef} id="team" className="py-20 bg-gradient-to-r from-[#e4e5ff] to-purple-100 px-6 relative">
                 {/* Top wave separator */}
                 <div className="absolute top-0 left-0 right-0 rotate-180">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" className="w-full h-auto">
@@ -323,7 +322,7 @@ function HomePage() {
                                          className="relative w-24 h-24 mx-auto rounded-full object-cover border-4 border-white shadow-md"/>
                                 </div>
                                 <h3 className="text-xl font-bold mt-4 text-gray-800">{member.name}</h3>
-                                <p className="text-primary-600 font-semibold mt-1">{member.role}</p>
+                                <p className="text-[#767781] font-semibold mt-1">{member.role}</p>
 
                                 {/* Social Media Icons */}
                                 <div className="flex justify-center gap-3 mt-4">
@@ -365,7 +364,7 @@ function HomePage() {
                 {/* Call to action */}
                 <div className="container mx-auto mt-20">
                     <div
-                        className="bg-gradient-to-r from-primary-500 to-purple-500 rounded-xl p-8 shadow-lg text-white text-center">
+                        className="bg-gradient-to-r from-[#767781] to-purple-500 rounded-xl p-8 shadow-lg text-white text-center">
                         <h3 className="text-2xl font-bold mb-3">Join the BrightKids Family</h3>
                         <p className="mb-6 max-w-2xl mx-auto">Start your child's magical learning journey today and
                             watch them grow with joy and confidence.</p>
