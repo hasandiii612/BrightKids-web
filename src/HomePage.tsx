@@ -278,37 +278,37 @@ function HomePage() {
                         {[
                             {
                                 name: "Yohan Liyange",
-                                role: "Frontend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/yohan.jpeg",
                                 social: ["linkedin", "github"]
                             },
                             {
                                 name: "Hasandi Seelarathne",
-                                role: "Backend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/hasandi.jpg",
                                 social: ["linkedin", "github"]
                             },
                             {
                                 name: "Kasun Wijesinghe",
-                                role: "Frontend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/kasun.jpeg",
                                 social: ["linkedin", "github"]
                             },
                             {
                                 name: "Senethma Hewavitharana",
-                                role: "Frontend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/senethma.jpeg",
                                 social: ["linkedin", "github"]
                             },
                             {
                                 name: "Rushela Perera",
-                                role: "Backend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/rushela.jpeg",
                                 social: ["linkedin", "github"]
                             },
                             {
                                 name: "Venuri Jayasuriya",
-                                role: "Backend Developer",
+                                role: "Co-founder | Developer",
                                 image: "/venuri.png",
                                 social: ["linkedin", "github"]
                             },
